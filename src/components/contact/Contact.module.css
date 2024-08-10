@@ -1,0 +1,16 @@
+.pawIcon1 {
+  filter: opacity(1) brightness(0.9);
+  transform: rotate(10.33deg);
+}
+.pawIcon2 {
+  filter: opacity(1) brightness(0.9);
+  transform: rotate(60.9deg);
+}
+.pawIcon3 {
+  filter: opacity(1) brightness(0.9);
+  transform: rotate(-11.3deg);
+}
+.pawIcon4 {
+  filter: opacity(1) brightness(0.9);
+  transform: rotate(39.28deg);
+}
