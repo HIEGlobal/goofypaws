@@ -1,23 +1,23 @@
 import React from "react";
-import doghousebed from "../../../public/assets/doghousebed.png";
-import DogBowl from "../../../public/assets/DogBowl.png";
-import CatBowl from "../../../public/assets/CatBowl.png";
+import feder from "../../../public/assets/feder.png";
+import dogbed from "../../../public/assets/dogbed.png";
+import cannister from "../../../public/assets/cannister.png";
 import Product from "../productBackground";
 
 const products = [
   {
-    img: doghousebed,
-    desc: "DOG HOUSE BED",
+    img: feder,
+    desc: "FEDER",
     bgColor: "#FFF1E2",
   },
   {
-    img: DogBowl,
-    desc: "DOG BOWL",
+    img: dogbed,
+    desc: "DOG BED",
     bgColor: "#FFE2E1",
   },
   {
-    img: CatBowl,
-    desc: "CAT BOWL",
+    img: cannister,
+    desc: "CANNISTER",
     bgColor: "#E3E2E0",
   },
 ];
