@@ -5,6 +5,7 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import {} from "@heroicons/react/20/solid";
 import Button from "../button";
+import navlogo from "../../../public/assets/navlogo.png"
 
 const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -28,7 +29,7 @@ const NavBar = () => {
             href="#"
             className="-m-1.5 p-1.5 text-[#703EDB] font-bold text-2xl"
           >
-            GOOFY PAWS
+           <img src={navlogo.src} alt="Goofy Paws Logo" className="h-16 w-auto" />
           </a>
         </div>
         <div className="flex lg:hidden">
