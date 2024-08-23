@@ -13,7 +13,7 @@ const products = [
   {
     img: dogbed,
     desc: "DOG BED",
-    bgColor: "#FFE2E1",
+    bgColor: "#EAF2FF",
   },
   {
     img: cannister,

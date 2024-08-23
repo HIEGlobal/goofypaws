@@ -5,7 +5,7 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import {} from "@heroicons/react/20/solid";
 import Button from "../button";
-import navlogo from "../../../public/assets/navlogo.png"
+import navlogo from "../../../public/assets/navlogo.svg"
 
 const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
