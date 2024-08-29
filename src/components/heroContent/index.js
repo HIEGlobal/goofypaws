@@ -26,8 +26,8 @@ const HeroContent = () => {
       xl:font-normal border-[#1c1c1e3f] xl:border-x-[2px]"
       >
         <p>
-          At Goofy Paws&#44; we understand that your pets are more than just
-          animals&#45;they&#39;re family. That&#39;s why we are dedicated to
+          At Goofy Paws&#44; we understand that your pets are like your children
+          &#45;they&#39;re family! That&#39;s why we are dedicated to
           providing high&#45;quality&#44; stylish&#44; and functional products
           that make life with your furry friends even more enjoyable.
         </p>

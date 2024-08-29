@@ -1,12 +1,9 @@
 import React from "react";
-import styles from "./wrapper.module.css";
 
 const ContentWrapper = ({ children }) => {
   return (
-    <div className={styles.outerwrapper}>
-      <div className={styles.innerwrapper}>
-        {children}
-      </div>
+    <div className="mx-auto max-w-[1424px] px-4 xl:px-6 lg:px-8">
+      {children}
     </div>
   );
 };
