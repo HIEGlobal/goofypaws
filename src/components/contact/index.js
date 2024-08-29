@@ -24,13 +24,14 @@ const contactData = [
 ];
 const Contact = () => {
   return (
-<div className="bg-customPurple px-0 xl:py-20 py-20 relative flex flex-col xl:mb-0">      <ContentWrapper>
+    <div className="bg-customPurple px-0 xl:py-20 py-40 relative flex flex-col xl:mb-0 ">
+      <ContentWrapper>
         <TextConatiner
           textHead="CONNECT WITH US"
           textDesc1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
           textDesc2="tempor incididunt ut labore et dolore magna aliq."
         />
-        <div className="xl:py-[200px]">
+        <div className="xl:py-[150px]">
           <div className="flex xl:flex-row flex-col xl:items-center items-start justify-around xl:gap-10 gap-2">
             {contactData.map((item, index) => {
               return (
