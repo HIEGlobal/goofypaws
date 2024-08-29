@@ -3,22 +3,28 @@ import feder from "../../../public/assets/feder.png";
 import dogbed from "../../../public/assets/dogbed.png";
 import cannister from "../../../public/assets/cannister.png";
 import Product from "../productBackground";
+import dogtoy from "../../../public/assets/dogtoy.png"
 
 const products = [
   {
     img: feder,
-    desc: "FEDER",
+    desc: "Feeding Bowls & Bowl Stands",
     bgColor: "#FFF1E2",
   },
   {
     img: dogbed,
-    desc: "DOG BED",
+    desc: "Dog Pet Beds",
     bgColor: "#EAF2FF",
   },
   {
     img: cannister,
-    desc: "CANNISTER",
+    desc: "Treat Cannisters",
     bgColor: "#E3E2E0",
+  },
+  {
+    img: dogtoy,
+    desc: "Pet toys",
+    bgColor: "#FFD1DC",
   },
 ];
 
