@@ -8,7 +8,7 @@ import dogtoy from "../../../public/assets/dogtoy.png"
 const products = [
   {
     img: feder,
-    desc: "Feeding Bowls & Bowl Stands",
+    desc: "Bowl Stands",
     bgColor: "#FFF1E2",
   },
   {
