@@ -30,9 +30,9 @@ const About = () => {
             </h2>
 
             <div className="my-5 lg:my-0">
-              <h2 className="text-[23px] text-[#8A8A8E] lg:leading-[28.8px] leading-[22px] -tracking-[0.5%] lg:text-left text-center my-5 lg:my-0">
-                Goofy Paws is a not-for-profit organisation and part of the HIE Global Inc.
-                Group, a company established in 2009 and headquartered in Phoenix, Arizona, USA.
+              <h2 className="text-[18px] text-[#8A8A8E] lg:leading-[28.8px] leading-[22px] -tracking-[0.5%] font-medium lg:text-left text-center my-5 lg:my-0">
+                Goofy Paws is a not-for-profit organisation and part of the HIE Global Inc. Group,
+                a company established in 2009 and headquartered in Phoenix, Arizona, USA.
                 Our core specialty is our exclusive line of pet products, designed to bring joy
                 and comfort to your furry companions. 100% of the profits earned from the sales
                 of pet products are donated to reputed charities for animal wellfare.

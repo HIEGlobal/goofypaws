@@ -63,7 +63,7 @@ const Hero = () => {
             <div className="sectionSubRow relative xl:flex hidden justify-between gap-4 mt-4 xl:mt-0 ">
               <div className="flex flex-col xl:gap-6 gap-2 xl:w-[25%] w-[45%]">
                 <div className="">
-                  <h2 className="xl:text-[22px] text-[12px] xl:leading-[30px] text-[#8A8A8E] font-medium ">
+                  <h2 className="xl:text-[18px] text-[12px] xl:leading-[30px] text-[#8A8A8E] font-medium ">
                     Goofy Paws Pet Care <br />
                     <span className="text-[#000]"> Quality Products</span> for
                     Your Cherished Furry Family Members
