@@ -32,7 +32,7 @@ const Hero = () => {
                 <div className="flex items-center gap-6 justify-between">
                   <div className="flex items-center justify-between gap-2">
                     <Button
-                      text="Shop Now"
+                      text="Explore Catalog"
                       padding="px-4 py-2"
                       textSize="6px"
                     />
@@ -70,7 +70,7 @@ const Hero = () => {
                   </h2>
                 </div>
                 <div className="flex items-center gap-6">
-                  <Button text="Shop Now" padding="px-4 py-2" textSize="6px" />
+                  <Button text="Explore Catalog" padding="px-4 py-2" textSize="6px" />
                   <CiCircleChevRight className="text-[#703EDB] xl:text-[50px] text-[30px]" />
                 </div>
               </div>

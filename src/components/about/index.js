@@ -38,7 +38,7 @@ const About = () => {
                 of pet products are donated to reputed charities for animal wellfare.
               </h2>
               <div className="flex items-center gap-6 lg:mt-5 lg:mb-0 my-5 lg:justify-normal justify-center">
-                <Button text="Shop Now" padding="px-4 py-2" />
+                <Button text="Explore Catalog" padding="px-4 py-2" />
                 <CiCircleChevRight className="text-[#703EDB] lg:text-[50px] text-[30px]" />
               </div>
             </div>
