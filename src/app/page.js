@@ -11,11 +11,13 @@ import Social from "@/components/social";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import IconsContainer from "@/components/iconsContainer";
+import WAB from "@/components/wabutton";
 
 const Page = () => {
   return (
     <>
       <ContentWrapper>
+        <WAB/>
         <NavBar />
         <Hero />
         <HeroContent />
