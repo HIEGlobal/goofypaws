@@ -31,16 +31,16 @@ const About = () => {
 
             <div className="my-5 lg:my-0">
               <h2 className="text-[18px] text-[#8A8A8E] lg:leading-[28.8px] leading-[22px] -tracking-[0.5%] font-medium lg:text-left text-center my-5 lg:my-0">
-                Goofy Paws is a not-for-profit organisation and part of the HIE Global Inc. Group,
+                Goofy Paws is a division of HIE Global Inc,
                 a company established in 2009 and headquartered in Phoenix, Arizona, USA.
                 Our core specialty is our exclusive line of pet products, designed to bring joy
                 and comfort to your furry companions. 100% of the profits earned from the sales
                 of pet products are donated to reputed charities for animal wellfare.
               </h2>
-              <div className="flex items-center gap-6 lg:mt-5 lg:mb-0 my-5 lg:justify-normal justify-center">
-                <Button text="Explore Catalog" padding="px-4 py-2" />
+              {/* <div className="flex items-center gap-6 lg:mt-5 lg:mb-0 my-5 lg:justify-normal justify-center">
+                {/* <Button text="Explore Catalog" padding="px-4 py-2" /> 
                 <CiCircleChevRight className="text-[#703EDB] lg:text-[50px] text-[30px]" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

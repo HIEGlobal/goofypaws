@@ -69,10 +69,10 @@ const Hero = () => {
                     Your Cherished Furry Family Members
                   </h2>
                 </div>
-                <div className="flex items-center gap-6">
+                {/* <div className="flex items-center gap-6">
                   <Button text="Explore Catalog" padding="px-4 py-2" textSize="6px" />
                   <CiCircleChevRight className="text-[#703EDB] xl:text-[50px] text-[30px]" />
-                </div>
+                </div> */}
               </div>
 
               <div className="xl:w-[20%] w-[40%]">
