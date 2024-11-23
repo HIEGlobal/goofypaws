@@ -10,7 +10,7 @@ const NavBar = () => {
   };
 
   return (
-    <header className="lg:my-[60px] my-[10px]">
+    <header className="lg:my-[40px] my-[10px]">
       <nav
         aria-label="Global"
         className="flex w-full items-center justify-between p-4 bg-[#F7F6F9] rounded-[30px] lg:rounded-[60px]"

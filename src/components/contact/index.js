@@ -15,7 +15,7 @@ const contactData = [
   },
   {
     icon: location,
-    text: "2942 N. 24th Street, Suite 114, Phoenix, AZ 85016, USA",
+    text: "Shop No. 103, 75-76, Manisha Building, Nehru Place, New Delhi-19",
   },
   {
     icon: phone,
