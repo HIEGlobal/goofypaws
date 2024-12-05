@@ -11,6 +11,7 @@ import Social from "@/components/social";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import IconsContainer from "@/components/iconsContainer";
+import WhatsAppButton from "@/components/WAButton/whatsapp";
 // import WAB from "@/components/wabutton";
 
 const Page = () => {
@@ -26,6 +27,7 @@ const Page = () => {
         <Social />
       </ContentWrapper>
       <Contact />
+      <WhatsAppButton/>
       <Footer />
     </>
   );

@@ -8,46 +8,82 @@ import paw from "../../../public/assets/paw.png";
 import styles from "./Contact.module.css";
 import ContentWrapper from "../wrapper";
 
-const contactData = [
+// Contact data for the right-aligned section
+const contactDataRight = [
   {
     icon: sms,
     text: "woof@goofypaws.org",
   },
   {
+    icon: phone,
+    text: "+918750446500",
+  },
+];
+
+// Contact data for the left-aligned section
+const contactDataLeft = [
+  {
     icon: location,
+    title: "India Office",
     text: "Shop No. 103, 75-76, Manisha Building, Nehru Place, New Delhi-19",
   },
   {
-    icon: phone,
-    text: "(480) 322-5889",
+    icon: location,
+    title: "Phoenix Headquarters",
+    text: "#2942 N, 24th Street, Suite 114, Phoenix, AZ 850116",
   },
 ];
+
 const Contact = () => {
   return (
-    <div className="bg-customPurple px-0 xl:py-20 py-40 relative flex flex-col xl:mb-0 ">
+    <div className="bg-customPurple px-0 xl:py-20 py-40 relative flex flex-col xl:mb-0">
       <ContentWrapper>
         <TextConatiner
           textHead="CONNECT WITH US"
           textDesc1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
           textDesc2="tempor incididunt ut labore et dolore magna aliq."
         />
-        <div className="xl:py-[150px]">
-          <div className="flex xl:flex-row flex-col xl:items-center items-start justify-around xl:gap-10 gap-2">
-            {contactData.map((item, index) => {
-              return (
-                <div
-                  className="flex items-center justify-center gap-2 text-lg font-medium"
-                  key={index}
-                >
-                  <Image src={item.icon} alt="item.text" />
-                  <h3 className="text-[#1C1C1E] xl:text-lg text-[12px] opacity-[70%]">
-                    {item.text}
+        <div className="xl:py-[150px] flex justify-between items-start gap-10">
+          {/* Left-aligned section for addresses */}
+          <div className="flex flex-col items-start gap-6">
+            {contactDataLeft.map((item, index) => (
+              <div
+                className="flex items-start gap-4 text-lg font-medium"
+                key={index}
+              >
+                <Image src={item.icon} alt={item.title} width={40} height={40} />
+                <div>
+                  <h3 className="text-[#1C1C1E] xl:text-lg text-[14px] font-bold">
+                    {item.title}
                   </h3>
+                  <p className="text-[#1C1C1E] xl:text-lg text-[12px] opacity-[70%]">
+                    {item.text}
+                  </p>
                 </div>
-              );
-            })}
+              </div>
+            ))}
+          </div>
+
+          {/* Right-aligned section for email and phone */}
+          <div className="flex flex-col items-end gap-6">
+            {/* Email */}
+            <div className="flex items-center gap-4 text-lg font-medium">
+              <Image src={sms} alt="Email" width={30} height={30} />
+              <h3 className="text-[#1C1C1E] xl:text-lg text-[12px]  opacity-[70%]">
+                woof@goofypaws.org
+              </h3>
+            </div>
+            {/* Phone */}
+            <div className="flex items-center gap-4 text-lg font-medium">
+              <Image src={phone} alt="Phone" width={30} height={30} />
+              <h3 className="text-[#1C1C1E] xl:text-lg text-[12px] opacity-[70%]">
+                +918750446500
+              </h3>
+            </div>
           </div>
         </div>
+
+        {/* Decorative paw icons */}
         <Image
           src={paw}
           alt="paw"
