@@ -34,7 +34,7 @@ const About = () => {
                 Goofy Paws is a division of HIE Global Inc,
                 a company established in 2009 and headquartered in Phoenix, Arizona, USA.
                 Our core specialty is our exclusive line of pet products, designed to bring joy
-                and comfort to your furry companions. 100% of the profits earned from the sales
+                and comfort to your furry companions. 25% of the profits earned from the sales
                 of our Goofy Paws line-up are donated to reputed charities for animal wellfare.
               </h2>
               {/* <div className="flex items-center gap-6 lg:mt-5 lg:mb-0 my-5 lg:justify-normal justify-center">
