@@ -31,14 +31,15 @@ const Hero = () => {
                   </h2>
                 </div>
                 <div className="flex items-center gap-6 justify-between">
-                  <div className="flex items-center justify-between gap-2">
-                    <Button
-                      text="Explore Catalog"
-                      padding="px-4 py-2"
-                      textSize="6px"
-                    />
+                  <a
+                    href="https://www.flipsnack.com/E76AECFF8D6/gp-1.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2"
+                  >
+                    <Button text="Explore Catalog" padding="px-4 py-2" textSize="6px" />
                     <CiCircleChevRight className="text-[#703EDB] xl:text-[50px] text-[30px]" />
-                  </div>
+                  </a>
                   <div className="xl:w-[20%] w-[40%]">
                     <div className="flex items-center gap-2 justify-end">
                       <IconsContainer bgColor="#EAF2FF" image={bed} padding="py-3 px-2" />
@@ -60,14 +61,17 @@ const Hero = () => {
                     Your Cherished Furry Family Members
                   </h2>
                 </div>
-                {/* Un-commented this part to show the button */}
                 <div className="flex items-center gap-6">
-                  <a href="https://www.flipsnack.com/E76AECFF8D6/gp-1.html" target="_blank" rel="noopener noreferrer">
-                     <Button text="Explore Catalog" padding="px-4 py-2" textSize="6px" />
+                  <a
+                    href="https://www.flipsnack.com/E76AECFF8D6/gp-1.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2"
+                  >
+                    <Button text="Explore Catalog" padding="px-4 py-2" textSize="6px" />
+                    <CiCircleChevRight className="text-[#703EDB] xl:text-[50px] text-[30px]" />
                   </a>
-                  <CiCircleChevRight className="text-[#703EDB] xl:text-[50px] text-[30px]" />
                 </div>
-
               </div>
 
               <div className="xl:w-[20%] w-[40%]">
