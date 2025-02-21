@@ -32,7 +32,7 @@ const Hero = () => {
                 </div>
                 <div className="flex items-center gap-6 justify-between">
                   <a
-                    href="https://www.flipsnack.com/E76AECFF8D6/gp-1.html"
+                    href="https://anyflip.com/djyof/jzoa/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
