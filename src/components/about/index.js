@@ -33,8 +33,9 @@ const About = () => {
               <h2 className="text-[18px] text-[#8A8A8E] lg:leading-[28.8px] leading-[22px] -tracking-[0.5%] font-medium lg:text-left text-center my-5 lg:my-0">
                 Goofy Paws is a division of Oriental Trimmings,
                 a company established in 2009 and headquartered in Phoenix, Arizona, USA.
-                We take pride in offering an exclusive line of pet products, designed to bring joy and comfort to your furry companions.
-                
+                Our core specialty is our exclusive line of pet products, designed to bring joy
+                and comfort to your furry companions. 100% of the profits earned from the sales
+                of our Goofy Paws line-up are donated to reputed charities for animal wellfare.
               </h2>
               {/* <div className="flex items-center gap-6 lg:mt-5 lg:mb-0 my-5 lg:justify-normal justify-center">
                 {/* <Button text="Explore Catalog" padding="px-4 py-2" /> 
