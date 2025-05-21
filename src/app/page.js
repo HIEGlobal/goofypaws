@@ -27,7 +27,7 @@ const Page = () => {
         <Social />
       </ContentWrapper>
       <Contact />
-      <WhatsAppButton/>
+      {/* <WhatsAppButton/> */}
       <Footer />
     </>
   );

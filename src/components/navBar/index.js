@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image"; // ✅ import Image
 import Button from "../button";
 import navlogo from "../../../public/assets/navlogo.svg";
 
 const NavBar = () => {
   const handleContactClick = () => {
-    window.scrollTo({ top: 5150, behavior: "smooth" });
+    window.scrollTo({ top: 4650, behavior: "smooth" });
   };
 
   return (
@@ -20,10 +21,13 @@ const NavBar = () => {
             href="#"
             className="-m-1.5 p-1.5 text-[#703EDB] font-bold text-2xl"
           >
-            <img
-              src={navlogo.src}
+            <Image
+              src={navlogo}
               alt="Goofy Paws Logo"
+              width={150}
+              height={64}
               className="h-12 w-auto lg:h-16"
+              priority 
             />
           </a>
         </div>

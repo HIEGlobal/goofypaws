@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/image"; 
 import React from "react";
 import video1 from "../../../public/assets/video-1.png";
 import video2 from "../../../public/assets/video-2.png";
@@ -23,11 +23,23 @@ const Social = () => {
     <div className="xl:p-[60px] p-[20px] bg-[#703edb10] xl:mt-[140px] xl:mb-[70px] mb-10 flex flex-col gap-10 rounded-[32px]">
       <TextConatiner
         textHead="OUR SOCIAL IMPACTS"
-        textDesc1="At Goofy Paws, we donate 25% of our profit to animal shelters and
-          welfare organizations."
-        textDesc2="Your purchases help provide food, medical care,
-          and homes for animals in need."
+        textDesc1="At Goofy Paws, we donate 25% of our profit to animal shelters and welfare organizations."
+        textDesc2="Your purchases help provide food, medical care, and homes for animals in need."
       />
+      <p className="text-center text-md text-gray-600 max-w-2xl mx-auto -mt-4">
+        At Goofy Paws, we’re more than just pet products. We’re on a mission to
+        help strays. We rescue injured and abandoned dogs, get them treated, and
+        ensure they’re vaccinated and sterilized through regular spay/neuter
+        drives
+      </p>
+      <p className="text-center text-md text-gray-600 max-w-2xl mx-auto -mt-4">
+        {" "}
+        25% of our profits go directly towards feeding, treating, and caring for
+        street dogs, giving them a second chance at life. Every purchase you
+        make supports this mission. Thank you for being part of their journey.
+        🐾
+      </p>
+
       <div className="videoContentTop sm:grid sm:grid-cols-3 grid grid-rows-1 gap-10">
         {videoDataTop.map((video, index) => {
           return (
@@ -58,7 +70,7 @@ const Social = () => {
           );
         })}
       </div>
-     </div>
+    </div>
   );
 };
 
